@@ -14,56 +14,6 @@
   }
 }
 
-.menu__button {
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    border-style: none;
-    border-color: none;
-    outline: none;
-    border-image: none;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    background-color: transparent;
-
-    outline: black;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    display: none;
-  }
-
-  @media screen and (min-width: 1200px) {
-    display: none;
-  } 
-}
-
-.menu__button--svg {
-  fill: $black-color;
-
-  &:hover,
-  &:focus,
-  &:active {
-    fill: $accent-color;
-  }
-
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu__button.is-open .menu__button--icon-cross{
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    display: block;
-  }
-}
-
-.menu__button.is-open .menu__button--icon-menu{
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    display: none;
-
-    fill: $black-color;
-  }
-}
 
 .site-nav__list {
   display: none;
@@ -158,6 +108,76 @@
   &:focus {
     color: $accent-color;
   }
+}
+
+// Mobile menu
+.menu__button {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    border-style: none;
+    border-color: none;
+    outline: none;
+    border-image: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: transparent;
+
+    outline: black;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  } 
+}
+
+.menu__button--svg {
+  fill: $black-color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    fill: $accent-color;
+  }
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__button.is-open .menu__button--icon-icon{
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    display: block;
+  }
+}
+
+.menu__button.is-open .menu__button--icon-menu{
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    display: none;
+
+    fill: $black-color;
+  }
+}
+
+.menu__container {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 480px;
+    height: 393;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  } 
 }
 
 
