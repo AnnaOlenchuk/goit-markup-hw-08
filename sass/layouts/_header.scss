@@ -19,10 +19,12 @@
 
 .header__container { 
   display: flex; 
-
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    justify-content: flex-end;
-  }
+  justify-content: space-between;
+  // @media screen and (min-width: 480px) and (max-width: 767px) {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
+  
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     align-items: center;

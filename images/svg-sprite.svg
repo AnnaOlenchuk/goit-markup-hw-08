@@ -100,11 +100,11 @@
 <path d="M14.222 1.667v11.666H1.778V1.667h12.444zm0-1.667H1.778C.8 0 0 .75 0 1.667v11.666C0 14.25.8 15 1.778 15h12.444C15.2 15 16 14.25 16 13.333V1.667C16 .75 15.2 0 14.222 0z"/></svg>
 </symbol>
 <symbol>
-<svg id="icon-cross" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="icon-cross" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
 <path d="M29.67 12.88L27.79 11l-7.46 7.45L12.88 11 11 12.88l7.45 7.45L11 27.8l1.88 1.88 7.45-7.46 7.46 7.46 1.88-1.88-7.46-7.46 7.46-7.45z"/></svg>
 </symbol>
 <symbol>
-<svg id="icon-menu" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg id="icon-menu" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M8 14.67V12h24v2.67H8zm0 6.66h24v-2.66H8v2.66zM8 28h24v-2.67H8V28z"/></svg>
 </symbol>
 </defs>
