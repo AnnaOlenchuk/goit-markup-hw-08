@@ -1,0 +1,115 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .features {
+      display: flex;
+    }
+  }
+}
+
+.features__item { 
+  width: 450px;
+  text-align: left;
+
+    &:not(:last-child) {
+      margin-bottom: 1.875em;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      background-position: 50% 50%;
+      
+      width: 270px;
+      height: 120px;
+      margin-bottom: 1.875em;
+    
+      background-color: $secondary-background-color;
+      background-repeat: no-repeat;
+    } 
+
+    &:nth-child(1)::before {
+      content: "";
+      background-image: url(../images/antenna1.svg);
+    }
+    
+    &:nth-child(2)::before {
+      content: "";
+      background-image: url(../images/clock1.svg);
+    }
+    
+    &:nth-child(3)::before {
+      content: "";
+      background-image: url(../images/diagram1.svg);
+    }
+    
+    &:nth-child(4)::before {
+      content: "";
+      background-image: url(../images/astronaut1.svg);
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: 354px;
+      margin-right: 1.875em;
+      margin-bottom: 1.875em;
+  
+      &:nth-child(2n){
+        margin-right: 0;
+      }
+      &:nth-last-child(-n + 2) {
+        margin-bottom: 0;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  .features__title {
+    /* h3 */
+    margin-top: 0;
+    margin-bottom: 0.625em;
+  
+    color: $title-text-color;
+  
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+.features__text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 0.875rem;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+
+
+  
+
+    
+
